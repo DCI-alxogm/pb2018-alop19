@@ -12,7 +12,7 @@ int main ()
 	printf("El valor de la temperatura k es: %f \n", k);
 	f=(c*1.8)+32;
 	printf("El valor de la temperatura f es: %f \n", f);
-	c= (f-32)*(5/9);
+	c=(f-32)/1.8;
 	printf("el valor de la temperatura c es: %f \n", c);
 		
 	return(0);
